@@ -1,0 +1,6 @@
+torch>=1.10.0
+numpy>=1.20.0
+pymanopt>=2.0.0
+scipy>=1.7.0
+cvxopt>=1.2.3
+scikit-learn>=1.0.0
