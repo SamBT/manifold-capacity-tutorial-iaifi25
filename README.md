@@ -13,8 +13,14 @@ pip install requirements.txt
 
 ## The tutorials
 
-1. **Tutorial 1** <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_1_theory.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> - implementing the mean-field calculations of manifold capacity, radius, and dimension. Doesn't require any GPUs!
+1. **Tutorial 1** - implementing the mean-field calculations of manifold capacity, radius, and dimension. Doesn't require any GPUs! <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_1_theory.ipynb"> 
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
-2. **Tutorial 2** <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_2_neuralNets.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> - training some neural networks on image data and analyzing learned representations using mean-field manifold capacity quantities.
+2. **Tutorial 2** - training some neural networks on image data and analyzing learned representations using mean-field manifold capacity quantities. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_2_neuralNets.ipynb"> 
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> 
+</a>
 
-3. **Tutorial 3** - exploring [MMCR](https://arxiv.org/abs/2303.03307), a self-supervised learning technique using a manifold capacity-inspired loss function. 
+3. **Tutorial 3** - exploring [MMCR](https://arxiv.org/abs/2303.03307), a self-supervised learning technique using a manifold capacity-inspired loss function. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_3_MMCR.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
