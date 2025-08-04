@@ -21,6 +21,4 @@ pip install requirements.txt
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> 
 </a>
 
-3. **Tutorial 3** - exploring [MMCR](https://arxiv.org/abs/2303.03307), a self-supervised learning technique using a manifold capacity-inspired loss function. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_3_MMCR.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+3. **Tutorial 3** - exploring [MMCR](https://arxiv.org/abs/2303.03307), a self-supervised learning technique using a manifold capacity-inspired loss function. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_3_MMCR.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
