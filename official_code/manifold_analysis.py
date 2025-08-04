@@ -38,7 +38,10 @@ def manifold_analysis(XtotT, kappa, n_t, t_vecs=None):
     Xori = np.concatenate(XtotT, axis=1)
     X_origin = np.mean(Xori, axis=1, keepdims=True)
     # Subtract the mean from each manifold
-    Xtot0 = [XtotT[i] - X_origin for i in range(num_manifolds)]
+    if len(XtotT) > 1:
+        Xtot0 = [XtotT[i] - X_origin for i in range(num_manifolds)]
+    else:
+        Xtot0 = XtotT
     # Compute the mean for each manifold
     means = [np.mean(Xtot0[i], axis=1, keepdims=True) for i in range(num_manifolds)]
     # Normalize the center for each manifold
@@ -59,7 +62,7 @@ def manifold_analysis(XtotT, kappa, n_t, t_vecs=None):
             D, m = S_r.shape
         # Add the center dimension
         sD1 = np.concatenate([S_r, np.ones((1, m))], axis=0)
-        print(f"Centered manifold {i}")
+       #print(f"Centered manifold {i}")
 
         # Carry out the analysis on the i_th manifold
         if t_vecs is not None:
@@ -103,8 +106,8 @@ def each_manifold_analysis_D1(sD1, kappa, n_t, eps=1e-8, t_vec=None):
     # Compute V, S~ for each random vector
     s_all = np.empty((D1, n_t))
     f_all = np.zeros(n_t)
-    print("computing anchor points")
-    for i in tqdm(range(n_t)):
+    #print("computing anchor points")
+    for i in range(n_t):
         # Get the t vector to use (keeping dimensions)
         t = np.expand_dims(t_vec[:, i], axis=1)
         # TODO: Double check signs here
