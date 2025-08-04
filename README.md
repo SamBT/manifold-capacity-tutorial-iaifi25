@@ -22,3 +22,6 @@ pip install requirements.txt
 </a>
 
 3. **Tutorial 3** - exploring [MMCR](https://arxiv.org/abs/2303.03307), a self-supervised learning technique using a manifold capacity-inspired loss function. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_3_MMCR.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+
+## Hackathon prompt
+Try using MMCR for representation learning on a scientific dataset, and evaluate how the learned embeddings can be adapted for downstream tasks (e.g. classification, regression). Compare your results to from-scratch trainings on the raw data. If you have time, compare MMCR to a more conventional SSL approach like SimCLR. An example from particle physics would be using a subset of the [JetClass dataset](https://zenodo.org/records/6619768) and using the physics inspired augmentations from [JetCLR](https://arxiv.org/abs/2108.04253) (see [accompanying code](https://github.com/bmdillon/JetCLR/blob/main/scripts/modules/jet_augs.py) for implementation examples). You could use [ParticleNet](https://github.com/jet-universe/particle_transformer) or a [Particle Flow Network](https://energyflow.network/) to handle the variable-length point cloud inputs.
