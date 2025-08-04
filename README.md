@@ -17,7 +17,7 @@ pip install requirements.txt
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-2. **Tutorial 2** - training some neural networks on image data and analyzing learned representations using mean-field manifold capacity quantities. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_2_neuralNets.ipynb"> 
+2. **Tutorial 2** - training some neural networks on image data and analyzing learned representations using mean-field manifold capacity. <a target="_blank" href="https://colab.research.google.com/github/SamBT/manifold-capacity-tutorial-iaifi25/blob/main/Tutorial_2_neuralNets.ipynb"> 
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> 
 </a>
 
